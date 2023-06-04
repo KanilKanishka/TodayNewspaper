@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -11,10 +12,10 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="173dp"
-        android:layout_marginTop="285dp"
-        android:layout_marginEnd="44dp"
-        android:layout_marginBottom="395dp" />
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="315dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="365dp" />
 
     <EditText
         android:id="@+id/password"
@@ -52,9 +53,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="51dp"
-        android:layout_marginTop="328dp"
+        android:layout_marginTop="330dp"
         android:layout_marginEnd="242dp"
-        android:layout_marginBottom="379dp"
+        android:layout_marginBottom="377dp"
         android:fontFamily="sans-serif-black"
         android:text="Username"
         android:textSize="20sp"
@@ -75,5 +76,19 @@
         android:text="Password"
         android:textSize="20sp"
         android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="99dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="485dp"
+        app:srcCompat="@mipmap/ic_launcher_round" />
 
 </RelativeLayout>
