@@ -14,15 +14,15 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        String createTableQuery = "CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY, name TEXT, email TEXT)";
-        db.execSQL(createTableQuery);
+        //String createTableQuery = "CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY, name TEXT, email TEXT)";
+        //db.execSQL(createTableQuery);
 
     }
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-        db.execSQL(UserTable.DROP_TABLE_QUERY);
-        onCreate(db);
+        //db.execSQL(Table.DROP_TABLE_QUERY);
+        //onCreate(db);
     }
 
 }
