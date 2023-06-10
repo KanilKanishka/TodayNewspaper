@@ -15,7 +15,8 @@
         android:layout_marginStart="176dp"
         android:layout_marginTop="315dp"
         android:layout_marginEnd="41dp"
-        android:layout_marginBottom="365dp" />
+        android:layout_marginBottom="365dp"
+        android:autofillHints="username"/>
 
     <EditText
         android:id="@+id/password"
@@ -42,7 +43,7 @@
         android:layout_marginTop="462dp"
         android:layout_marginEnd="46dp"
         android:layout_marginBottom="221dp"
-        android:text="Login" />
+        android:text="@string/login" />
 
     <TextView
         android:id="@+id/textView"
@@ -57,7 +58,7 @@
         android:layout_marginEnd="242dp"
         android:layout_marginBottom="377dp"
         android:fontFamily="sans-serif-black"
-        android:text="Username"
+        android:text="@string/username"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -73,7 +74,7 @@
         android:layout_marginTop="394dp"
         android:layout_marginEnd="273dp"
         android:layout_marginBottom="313dp"
-        android:text="Password"
+        android:text="@string/password"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -89,6 +90,7 @@
         android:layout_marginTop="99dp"
         android:layout_marginEnd="80dp"
         android:layout_marginBottom="485dp"
-        app:srcCompat="@mipmap/ic_launcher_round" />
+        app:srcCompat="@mipmap/ic_launcher_round"
+        android:contentDescription="@string/todo" />
 
 </RelativeLayout>

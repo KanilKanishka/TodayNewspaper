@@ -11,46 +11,49 @@
         android:id="@+id/button8"
         android:layout_width="94dp"
         android:layout_height="61dp"
-        android:text="Settings"
+        android:text="@string/settings"
         android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.839"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.78" />
+        app:layout_constraintVertical_bias="0.78"
+        tools:ignore="SmallSp" />
 
     <Button
         android:id="@+id/button9"
         android:layout_width="94dp"
         android:layout_height="61dp"
-        android:text="Subcriber"
+        android:text="@string/subcriber"
         android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.78" />
+        app:layout_constraintVertical_bias="0.78"
+        tools:ignore="SmallSp" />
 
     <Button
         android:id="@+id/button10"
         android:layout_width="94dp"
         android:layout_height="61dp"
-        android:text="News Paper"
+        android:text="@string/news_paper"
         android:textSize="8sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.164"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.78" />
+        app:layout_constraintVertical_bias="0.78"
+        tools:ignore="SmallSp" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="94dp"
         android:layout_height="61dp"
-        android:text="Rides"
+        android:text="@string/rides"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -63,7 +66,7 @@
         android:id="@+id/button4"
         android:layout_width="94dp"
         android:layout_height="60dp"
-        android:text="Map"
+        android:text="@string/map"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -83,5 +86,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.612" />
+
+    <ImageView
+        android:id="@+id/bannerImageView"
+        android:layout_width="312dp"
+        android:layout_height="267dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/dash"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.525"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.189" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -17,7 +17,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.78"
-        android:background="@color/material_dynamic_neutral95"/>/>
+        android:background="@color/material_dynamic_neutral95"/>
 
     <Button
         android:id="@+id/button7"
@@ -70,7 +70,7 @@
         android:id="@+id/button5"
         android:layout_width="94dp"
         android:layout_height="60dp"
-        android:text="Trips"
+        android:text="@string/trips"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.839"
